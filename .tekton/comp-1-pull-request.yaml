@@ -103,6 +103,10 @@ spec:
         VMs
       name: privileged-nested
       type: string
+    - name: additional-tags
+      description: Additional tags to apply to the built image
+      type: array
+      default: []
     results:
     - description: ""
       name: IMAGE_URL
